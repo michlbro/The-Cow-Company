@@ -1,0 +1,31 @@
+{
+  "name": "The Cow Company",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "srcDirty/Shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Client": {
+        "$path": "srcDirty/Client"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "srcDirty/ServerScripts"
+    },
+
+    "ServerStorage": {
+      "$path": "srcDirty/Server"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "srcDirty/PlayerScripts"
+      }
+    }
+  }
+}
